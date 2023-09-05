@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Isai Jean Mary</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        /* Fond de la barre de navigation */
+        .navbar {
+            background-color: #007BFF;
+        }
+
+        /* Couleur du texte de la barre de navigation */
+        .navbar-dark .navbar-nav .nav-link {
+            color: #FFF;
+        }
+
+        /* Fond de la section À propos de moi */
+        #about {
+            background-color: #F8F9FA;
+        }
+
+        /* Fond de la section Portfolio */
+        #portfolio {
+            background-color: #E2E8F0;
+        }
+
+        /* Fond de la section Contact */
+        #contact {
+            background-color: #343A40;
+        }
+
+        /* Couleur du texte de la section Contact */
+        #contact h2, #contact p {
+            color: #FFF;
+        }
+
+        /* Styles pour la section CV */
+#cv {
+    background-color: #F8F9FA;
+    padding: 40px 0;
+}
+
+#cv h2 {
+    color: #007BFF;
+}
+
+/* Styles pour les informations personnelles */
+#cv .col-md-4:nth-child(1) {
+    border-right: 1px solid #DDD;
+    padding-right: 20px;
+}
+
+/* Styles pour les titres */
+#cv h4 {
+    color: #333;
+}
+
+/* Styles pour les expériences professionnelles et l'éducation */
+#cv .col-md-4:not(:first-child) {
+    margin-top: 20px;
+}
+
+/* Styles pour les détails (poste, entreprise, date, description) */
+#cv p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les détails importants (nom, email, téléphone) */
+#cv .col-md-4:nth-child(1) p {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Styles pour les liens (par exemple, pour l'email) */
+#cv a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Au survol, changez la couleur du lien */
+#cv a:hover {
+    color: #0056b3;
+}
+
+/* Styles pour la section Témoignages */
+#testimonials {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#testimonials h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Styles pour les cartes de témoignages */
+.testimonial-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.testimonial-card .testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.testimonial-card .testimonial-text {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.testimonial-card .testimonial-author {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Au survol, changez légèrement la couleur de fond */
+.testimonial-card:hover {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+
+    </style>
+</head>
+<body>
+    <!-- Barre de navigation -->
+   
+<!-- Barre de navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Mon Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">À propos de moi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Section À propos de moi -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="display-4">À propos de moi</h2>
+                <p class="lead">Je suis un passionné de la programmation et de la science des données, engagé en tant que président de la jeunesse de mon église. J'adore relever des défis techniques tout en servant ma communauté.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="profile.jpg" alt="Photo de profil" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section Portfolio -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2>Portfolio</h2>
+        <div class="row">
+            <!-- Ajoutez vos projets sous forme de "cards" Bootstrap ici -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imag1.jpg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 1</h5>
+                        <p class="card-text">Description du projet 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imag1.jpg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 1</h5>
+                        <p class="card-text">Description du projet 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imag1.jpg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 1</h5>
+                        <p class="card-text">Description du projet 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imag1.jpg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 1</h5>
+                        <p class="card-text">Description du projet 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="imag1.jpg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 1</h5>
+                        <p class="card-text">Description du projet 1.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ajoutez plus de projets de la même manière -->
+        </div>
+    </div>
+</section>
+<!-- Section CV -->
+<section id="cv" class="py-5">
+    <div class="container">
+        <h2>CV</h2>
+        <div class="row">
+            <!-- Informations personnelles -->
+            <div class="col-md-4">
+                <h4>Informations Personnelles</h4>
+                <p><strong>Nom :</strong> Isai Jean Mary</p>
+                <p><strong>Email :</strong> jeanmaryisai@gmail.com</p>
+                <p><strong>Téléphone :</strong> +509 39305866</p>
+            </div>
+            <!-- Expérience professionnelle -->
+            <div class="col-md-4">
+                <h4>Expérience Professionnelle</h4>
+                <p><strong>Poste :</strong> Data Scientist</p>
+                <p><strong>Entreprise :</strong> XYZ Data Solutions</p>
+                <p><strong>Date :</strong> Janvier 2020 - Présent</p>
+                <p><strong>Description :</strong> J'ai travaillé sur divers projets de science des données.</p>
+            </div>
+            <!-- Éducation -->
+            <div class="col-md-4">
+                <h4>Éducation</h4>
+                <p><strong>Diplôme :</strong> Master en Informatique</p>
+                <p><strong>École :</strong> Université ABC</p>
+                <p><strong>Date :</strong> Septembre 2016 - Juin 2019</p>
+                <p><strong>Description :</strong> J'ai obtenu mon diplôme en informatique avec mention très bien.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Témoignages -->
+<section id="testimonials" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Témoignages</h2>
+        <div class="row">
+            <!-- Témoignage 1 -->
+            <div class="col-md-4">
+                <div class="card testimonial-card">
+                    <div class="card-body">
+                        <img src="profile.jpg" alt="Témoignage 1" class="testimonial-image">
+                        <p class="testimonial-text">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tellus sit amet eros eleifend
+                            vulputate. Maecenas vehicula nulla ut risus consequat, in euismod libero gravida."
+                        </p>
+                        <p class="testimonial-author">- John Doe</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Témoignage 2 -->
+            <div class="col-md-4">
+                <div class="card testimonial-card">
+                    <div class="card-body">
+                        <img src="profile.jpg" alt="Témoignage 2" class="testimonial-image">
+                        <p class="testimonial-text">
+                            "Praesent eu massa vel urna facilisis bibendum. Sed vitae metus sit amet augue feugiat
+                            convallis."
+                        </p>
+                        <p class="testimonial-author">- Jane Smith</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Témoignage 3 -->
+            <div class="col-md-4">
+                <div class="card testimonial-card">
+                    <div class="card-body">
+                        <img src="profile.jpg" alt="Témoignage 3" class="testimonial-image">
+                        <p class="testimonial-text">
+                            "Aenean vehicula, dolor eget fermentum facilisis, odio nisi eleifend odio, non suscipit arcu metus at
+                            lorem."
+                        </p>
+                        <p class="testimonial-author">- Sarah Johnson</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section Contact -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2>Contact</h2>
+        <p>Contactez-moi à l'adresse email: jeanmaryisai@gmail.com</p>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>  
+
+</body>
+</html>
