@@ -1,0 +1,192 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styles de la section Hero */
+.hero {
+    background-image: url('images/hero.jpg'); /* Remplacez par l'image de votre hôtel */
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+/* Styles de la section À Propos de Nous */
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styles de la section Chambres */
+.rooms {
+    background-image: url('images/chambre.jpg'); /* Remplacez par l'image de vos chambres */
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.rooms h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.rooms p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Styles de la section Restaurant */
+.restaurant {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.restaurant h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.restaurant p {
+    font-size: 18px;
+}
+
+/* Styles de la section Contact */
+.contact {
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Styles de la section Commentaires */
+.reviews {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.reviews h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.review {
+    padding: 20px;
+    border: 1px solid #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.review img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.review p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Styles de la section Services */
+.services {
+    background-image: url('images/services.jpg'); /* Remplacez par l'image de vos services */
+    background-size: cover;
+    text-align: center;
+    color: #47300c;
+    padding: 100px 0;
+}
+
+.services h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
